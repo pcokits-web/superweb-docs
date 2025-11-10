@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <title>Superweb Documentation</title>
   <meta name="description" content="Dokumentasi internal Superweb untuk Admin dan Staf" />
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2933/2933245.png" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
 </head>
 <body>
@@ -18,15 +17,14 @@
       subMaxLevel: 3,
       auto2top: true,
       themeColor: '#0078D7',
-      search: {
-        noData: 'Tidak ditemukan hasil',
-        placeholder: 'Cari di dokumentasi...',
-        pathNamespaces: ['/admin']
+
+      /* >>> FIX penting: paksa semua route pakai _sidebar.md di root */
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
       }
     }
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
