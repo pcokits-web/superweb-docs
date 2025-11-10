@@ -127,7 +127,7 @@ Centang beberapa file → **Delete (ikon merah)** → konfirmasi
    ![Edit form](https://github.com/user-attachments/assets/2f232666-db5f-47ee-a04c-37063cb1124c)  
 4) Ubah **Nama PIC, Email PIC, Password** → **Save**  
 
-> Video contoh: https://github.com/user-attachments/assets/066d137d-948b-47cf-9adc-78af1158890b
+https://github.com/user-attachments/assets/066d137d-948b-47cf-9adc-78af1158890b
 
 ---
 
@@ -147,6 +147,8 @@ Centang beberapa file → **Delete (ikon merah)** → konfirmasi
 **People (All / Staff / Client)**  
 ![People picker](https://github.com/user-attachments/assets/1bcef987-663b-4e48-bddc-276a3715d3d2)  
 Tambahkan user berdasarkan **nama/email** sesuai tab
+
+https://github.com/user-attachments/assets/a0e7409f-a980-48d0-a975-9c9b3fb071a3
 
 **Permission level**
 - **View only** → lihat/unduh  
