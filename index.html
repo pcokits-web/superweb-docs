@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Superweb Documentation</title>
-  <meta name="description" content="Dokumentasi internal Superweb untuk Admin dan Staf">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <meta name="description" content="Dokumentasi internal Superweb untuk Admin dan Staf" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2933/2933245.png" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
 </head>
 <body>
   <div id="app">Memuat dokumentasi Superweb...</div>
@@ -13,14 +14,19 @@
     window.$docsify = {
       name: 'Superweb Docs',
       repo: '',
-      loadSidebar: true,  // aktifkan menu sidebar
-      subMaxLevel: 3,     // tampilkan heading sampai level h3
-      auto2top: true,     // otomatis scroll ke atas tiap ganti halaman
-      themeColor: '#0078D7' // warna utama
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      themeColor: '#0078D7',
+      search: {
+        noData: 'Tidak ditemukan hasil',
+        placeholder: 'Cari di dokumentasi...',
+        pathNamespaces: ['/admin']
+      }
     }
   </script>
 
-  <!-- script utama Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
