@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Superweb Documentation</title>
-  <meta name="description" content="Dokumentasi internal Superweb untuk Admin dan Staf" />
+  <meta name="description" content="Dokumentasi internal Superweb untuk Admin dan Staf FTE" />
+  <link rel="icon" href="data:," />
+
+  <!-- Theme & Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
+
+  <style>
+    :root{
+      --sw-primary: #0B6EFD; /* biru modern */
+      --sw-muted: #64748B;   /* slate-500 */
+      --sw-maxw: 920px;
+    }
+    body{ font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji", sans-serif; }
+    .markdown-section{ max-width: var(--sw-maxw); }
+    .app-name{ font-weight: 700 !important; }
+    .sidebar{ width: 280px; }
+    .sidebar .sidebar-nav li>a{ font-weight: 500; }
+    .sidebar .search input{ border-radius: 10px; }
+    .content{ padding-top: 24px; }
+    .markdown-section h1{ font-size: 2rem; letter-spacing: -0.01em; }
+    .markdown-section h2{ margin-top: 2.2rem; }
+    .markdown-section table{ display: table; width: 100%; border-collapse: collapse; }
+    .markdown-section table th, .markdown-section table td{ border: 1px solid #e5e7eb; padding: 10px 12px; }
+    .markdown-section code{ font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .markdown-section blockquote{ border-left: 4px solid var(--sw-primary); background: #f8fafc; color: #0f172a; }
+    a{ color: var(--sw-primary); }
+    .cover.show ~ .sidebar, .cover.show ~ .content{ transition: none; }
+
+    /* Dark mode (opsional, auto berdasarkan preferensi OS) */
+    @media (prefers-color-scheme: dark) {
+      body{ color: #e5e7eb; background: #0b1220; }
+      .markdown-section{ color: #e5e7eb; }
+      .markdown-section table th, .markdown-section table td{ border-color: #1f2937; }
+      .markdown-section blockquote{ background: #0f172a; color: #e5e7eb; }
+      .sidebar, .sidebar ul, .sidebar li{ background: #0d1526; }
+      .sidebar .search input{ background: #0f172a; color: #e5e7eb; }
+      a{ color: #69a6ff; }
+    }
+  </style>
 </head>
 <body>
-  <div id="app">Memuat dokumentasi Superweb...</div>
+  <div id="app">Memuat dokumentasi Superweb…</div>
 
   <script>
     window.$docsify = {
@@ -16,15 +56,29 @@
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
-      themeColor: '#0078D7',
+      themeColor: '#0B6EFD',
 
-      /* >>> FIX penting: paksa semua route pakai _sidebar.md di root */
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+      /* Gunakan satu _sidebar.md untuk semua route */
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+
+      /* Pencarian */
+      search: {
+        paths: 'auto',
+        placeholder: 'Cari panduan…',
+        noData: 'Tidak ada hasil',
+        depth: 3
       }
     }
   </script>
 
+  <!-- Core -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- Plugins yang bermanfaat -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
