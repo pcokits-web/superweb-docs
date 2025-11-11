@@ -46,8 +46,10 @@ Tampilan menampilkan daftar folder (Agreement, Company Profile, Complaint Log, d
 
 ## 📁 4) Buat Folder
 
-1) **New Folder** (kanan atas)  
-2) Isi **Nama Folder**  
+1) **New Folder** (kanan atas)
+<img width="1506" height="85" alt="image" src="https://github.com/user-attachments/assets/c4c4aa38-6761-43ed-a01b-3cda225f4a61" />
+
+3) Isi **Nama Folder**  
 4) **Save**
 
 > Gunakan nama singkat, jelas, konsisten.
@@ -73,6 +75,7 @@ Tampilan menampilkan daftar folder (Agreement, Company Profile, Complaint Log, d
 ## ✏️ 6) Rename (Ubah Nama)
 
 1) Ikon **✏️** atau klik kanan **Rename** → ketik nama baru → **Save**
+<img width="336" height="150" alt="image" src="https://github.com/user-attachments/assets/42ca81f2-0bca-4493-8db6-18bd92063dc8" />
 
 ---
 
@@ -96,6 +99,8 @@ Centang beberapa file → **Delete (ikon merah)** → konfirmasi
 ---
 
 ## 🧹 9) Kelola Trash
+
+<img width="1497" height="409" alt="image" src="https://github.com/user-attachments/assets/79ecbdfa-6937-4fd3-813e-f228091d7b77" />
 
 **Sidebar → Trash** → pilih item:  
 - **Restore** (kembalikan)  
