@@ -142,7 +142,7 @@ Centang beberapa file → **Delete (ikon merah)** → konfirmasi
 
 ---
 
-## 👥 11) Manage Access (Admin/QA)
+## 👥 11) Manage Access (Staf FTE)
 
 > Atur siapa yang **bisa melihat / upload / edit / hapus / ubah izin** pada folder & file.
 
@@ -156,10 +156,15 @@ Centang beberapa file → **Delete (ikon merah)** → konfirmasi
 - **Public (staff & clients)** → semua staff **dan** semua client dapat melihat
 
 **People (All / Staff / Client)**  
-![People picker](https://github.com/user-attachments/assets/1bcef987-663b-4e48-bddc-276a3715d3d2)  
+<img width="751" height="818" alt="image" src="https://github.com/user-attachments/assets/5f4156e8-4615-43c6-95ff-f6d3bac1bc57" />
+
 Tambahkan user berdasarkan **nama/email** sesuai tab
 
-https://github.com/user-attachments/assets/a0e7409f-a980-48d0-a975-9c9b3fb071a3
+<video width="720" controls>
+  <source src="admin/File Manager Client.mp4" type="video/mp4">
+  Browser kamu tidak mendukung video.
+</video>
+
 
 **Permission level**
 - **View only** → lihat/unduh  
@@ -173,6 +178,9 @@ https://github.com/user-attachments/assets/a0e7409f-a980-48d0-a975-9c9b3fb071a3
 
 
 ### 11.2 5-Langkah Cepat Memberi Akses
+
+<img width="1131" height="856" alt="image" src="https://github.com/user-attachments/assets/ae4ecc6c-6dfe-4f26-9865-8586e54f9aae" />
+
 1) Klik kanan folder/file → **Manage access**  
 2) Pilih **Access type** (Restricted / All staff / Public)  
 3) Tab **Staff/Client** → cari & **tambahkan** orang  
@@ -181,17 +189,17 @@ https://github.com/user-attachments/assets/a0e7409f-a980-48d0-a975-9c9b3fb071a3
 
 ### 11.3 Contoh Pengaturan Aman
 
-**A) Company Profile (publik)**  
- Folder
+**A) Company Profile (share ke publik)**  
+ SubFolder
 - Access type: **Public (staff & clients)**  
-- People: —  
-- Permission: **Editor**  
-- Editor khusus (Marketing) di file tertentu saja
+- People: - 
+- Permission: **View Only**  
+
 
  File
 - Access type: **Public (staff & clients)**  
 - People: —  
-- Permission: **Editor**  
+- Permission: **View Only**  
 
 **B) Agreements (sensitif)**  
 
@@ -259,7 +267,7 @@ File
 
 ---
 
-## 🧭 15) Ringkasan Aksi (Admin)
+## 🧭 15) Ringkasan Aksi 
 
 | Tindakan | Menu |
 |---|---|
@@ -277,5 +285,3 @@ File
 
 ---
 
-**Versi:** FTE / November 2025  
-**Dikelola oleh:** QA & System Administration Team – PCO Kits
