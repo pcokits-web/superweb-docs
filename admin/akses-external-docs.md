@@ -222,17 +222,6 @@ File
   ![file in parent](https://github.com/user-attachments/assets/95343838-4620-4668-9e25-d39ad7c8e44f)  
   ![set public](https://github.com/user-attachments/assets/ded07647-8a6c-4107-bbfc-c1a5bef89bf5)
 
-### 11.5 Matriks Rekomendasi Cepat
-
-| Kategori | Access type | Staff (default) | Client (default) | Catatan |
-|---|---|---|---|---|
-| **Agreements** | Restricted | Editor (Legal/QA); View (lainnya) | View only | Sensitif; audit ketat |
-| **Certificates & Compliance** | Restricted | View/Editor (QA/Compliance) | View only | Hindari Public |
-| **Company Profile** | Public | View (Marketing Editor khusus) | View only | Materi publik |
-| **Service/Inspection Reports (per klien)** | Restricted | Editor (PIC proyek) | View only | Publikasi selektif |
-
----
-
 
 ## 🛠️ 12) Troubleshooting
 
@@ -251,7 +240,7 @@ File
 
 ---
 
-## ❓ 15) FAQ Singkat
+## ❓ 14) FAQ Singkat
 
 **“All staff” vs “Public (staff & clients)”**  
 - **All staff**: hanya karyawan internal  
@@ -262,7 +251,7 @@ File
 
 ---
 
-## 🧭 16) Ringkasan Aksi (Admin)
+## 🧭 15) Ringkasan Aksi (Admin)
 
 | Tindakan | Menu |
 |---|---|
