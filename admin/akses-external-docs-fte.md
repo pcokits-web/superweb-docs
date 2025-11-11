@@ -135,7 +135,10 @@ Centang beberapa file → **Delete (ikon merah)** → konfirmasi
    ![Edit form](https://github.com/user-attachments/assets/2f232666-db5f-47ee-a04c-37063cb1124c)  
 4) Ubah **Nama PIC, Email PIC, Password** → **Save**  
 
-https://github.com/user-attachments/assets/066d137d-948b-47cf-9adc-78af1158890b
+<video width="720" controls>
+  <source src="admin/Customers.mp4" type="video/mp4">
+  Browser kamu tidak mendukung video.
+</video>
 
 ---
 
