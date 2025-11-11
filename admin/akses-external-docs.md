@@ -49,8 +49,8 @@ Tampilan menampilkan daftar folder (Agreement, Company Profile, Complaint Log, d
 1) **New Folder** (kanan atas)
 <img width="1506" height="85" alt="image" src="https://github.com/user-attachments/assets/c4c4aa38-6761-43ed-a01b-3cda225f4a61" />
 
-3) Isi **Nama Folder**  
-4) **Save**
+2) Isi **Nama Folder**  
+3) **Save**
 
 > Gunakan nama singkat, jelas, konsisten.
 
