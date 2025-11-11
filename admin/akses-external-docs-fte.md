@@ -1,6 +1,6 @@
 # 🧭 Panduan Lengkap Staf FTE — Manajemen Dokumen Eksternal · Portal PCO Kits
 
-Panduan lengkap bagi **Staf FTE (Full-Time Employee)** dalam mengelola **External Documents** di portal **PCO Kits**: login, navigasi folder, upload, rename, move, delete, serta pengaturan akses yang diizinkan sesuai peran staf.
+Panduan lengkap bagi **Staf FTE** dalam mengelola **External Documents** di portal **PCO Kits**: login, navigasi folder, upload, rename, move, delete, share serta pengaturan akses yang diizinkan sesuai peran staf.
 
 ---
 
@@ -11,9 +11,9 @@ Panduan lengkap bagi **Staf FTE (Full-Time Employee)** dalam mengelola **Externa
 1. Buka **https://pco-kit.co.id**  
 2. Pilih **Login → Employee**  
 3. Halaman autentikasi: `https://pco-kit.co.id/portal/admin/authentication`  
-4. Masukkan **Email** dan **Password** yang diberikan oleh HR/Admin  
+4. Masukkan **Email** dan **Password** yang diberikan oleh Admin  → **Login**  
 
-> Jika tidak dapat login, hubungi QA/IT untuk reset password.
+> Jika tidak dapat login, hubungi IT untuk reset password.
 
 ---
 
@@ -30,56 +30,55 @@ Tampilan menampilkan daftar folder dokumen seperti **Agreement**, **Company Prof
 
 ## 🧱 3) Struktur Folder & Aturan Penamaan
 
-| Folder | Kegunaan |
+| Folder | Kegunaan Singkat |
 |---|---|
-| **Agreement** | Kontrak/perjanjian dengan client |
-| **Certificates & Compliance** | Sertifikat, izin, dokumen legal |
-| **Company Profile** | Profil dan materi publik perusahaan |
+| **Agreement** | Kontrak/perjanjian dengan pihak ketiga |
+| **Certificates and Other Documents** | Sertifikat, izin, dokumen legal |
+| **Company Profile** | Profil perusahaan, brosur, materi publik |
 | **Complaint Log** | Catatan keluhan pelanggan |
-| **Correspondences** | Surat resmi keluar/masuk |
-| **Monitoring Layout** | Layout dan peta kerja |
+| **Correspondences** | Surat resmi |
+| **Monitoring Layout** | Layout/peta/gambar kerja |
 | **MSDS** | Material Safety Data Sheet |
 | **Pest Management Report** | Laporan kegiatan pengendalian hama |
-| **Schedule** | Jadwal inspeksi/kegiatan |
+| **Schedule** | Jadwal kegiatan/inspeksi |
 | **Service Report** | Laporan hasil pekerjaan lapangan |
+| **dll** | Disesuaikan kebutuhan |
 
-> Gunakan **nama folder dan file yang ringkas dan jelas**, hindari spasi berlebih dan karakter khusus.
 
 ---
 
-## 📁 4) Membuat Folder Baru
+## 📁 4) Buat Folder
 
-1. Klik **New Folder** (kanan atas)  
-2. Isi **Nama Folder**  
-3. Klik **Save**
+1) **New Folder** (kanan atas)
+<img width="1506" height="85" alt="image" src="https://github.com/user-attachments/assets/c4c4aa38-6761-43ed-a01b-3cda225f4a61" />
 
-> Pastikan nama sesuai kategori (mis. *Service Report - Client A*).
+3) Isi **Nama Folder**  
+4) **Save**
+
+> Gunakan nama singkat, jelas, konsisten.
 
 ---
 
 ## 📤 5) Upload Dokumen
 
-### A. Upload File
-1. Klik **Add Files → Upload Files**  
-2. Pilih file dari komputer  
-3. Klik **Start Upload**
+**A. Upload File**  
+1) **Add Files → Upload Files**  
+2) Drag & drop / klik pilih file  
+3) **Start Upload**
 
-### B. Upload Folder
-1. Klik **Add Files → Upload Folder**  
-2. Pilih folder dari komputer  
-3. Klik **Start Upload**
+**B. Upload Folder**  
+1) **Add Files → Upload Folder**  
+2) Pilih folder di komputer → **Start Upload** 
 
+**Contoh form upload**  
 ![Upload box](https://github.com/user-attachments/assets/9a5eb9ee-7274-4e11-a2ae-15f6b5aab654)
 
 ---
 
 ## ✏️ 6) Rename (Ubah Nama)
 
-1. Klik ikon **✏️ Rename**  
-2. Ketik nama baru  
-3. Klik **Save**
-
-> Hindari mengganti ekstensi file (.pdf, .xlsx, dll).
+1) Ikon **✏️** atau klik kanan **Rename** → ketik nama baru → **Save**
+<img width="336" height="150" alt="image" src="https://github.com/user-attachments/assets/42ca81f2-0bca-4493-8db6-18bd92063dc8" />
 
 ---
 
@@ -87,127 +86,200 @@ Tampilan menampilkan daftar folder dokumen seperti **Agreement**, **Company Prof
 
 ![List](https://github.com/user-attachments/assets/a7b4d23e-18dd-4a15-b4b0-2a3a6602566c)
 
-1. Klik kanan file/folder  
-2. Pilih **Move**  
-3. Tentukan tujuan folder  
-4. Klik **Save**
+1) Klik kanan item → **Move** → pilih tujuan → **Save**
 
 ---
 
 ## 🗑️ 8) Delete (Hapus)
 
-1. Klik ikon **🗑️ Delete**  
-2. Konfirmasi penghapusan  
-3. File akan masuk **Trash** (bisa dipulihkan oleh QA/Admin)
+1) Ikon **🗑️** / klik kanan **Delete** → konfirmasi  
+2) Item berpindah ke **Trash** (soft delete)
+
+**Hapus banyak sekaligus**  
+![Multi delete](https://github.com/user-attachments/assets/321ce0c0-fffd-4246-b2fb-4d29087ddb36)  
+Centang beberapa file → **Delete (ikon merah)** → konfirmasi
 
 ---
 
-## 🧹 9) Trash (Sampah)
+## 🧹 9) Kelola Trash
 
-> Staf FTE dapat **melihat** isi Trash, tetapi hanya Admin/QA yang bisa **hapus permanen**.
+<img width="1497" height="409" alt="image" src="https://github.com/user-attachments/assets/79ecbdfa-6937-4fd3-813e-f228091d7b77" />
 
-Gunakan menu:
-> **Sidebar → Trash**
+**Sidebar → Trash** → pilih item:  
+- **Restore** (kembalikan)  
+- **Permanently Delete** (hapus permanen)
 
 ---
 
-## 👥 10) Manage Access (Hak Akses)
+## 👤 10) Daftarkan Customer/Client & PIC (bila belum ada)
 
-### 10.1 Jenis Akses
+### 10.1 Buka Modul Customers
+![Customers menu](https://github.com/user-attachments/assets/b8c8de7c-3ae7-4dfb-ac8e-a59db47b0ae7)
 
+**Menu → Customers** → cek daftar Customer  
+![List](https://github.com/user-attachments/assets/e047148e-a003-486c-b1ff-b2a665ab17aa)
+
+### 10.2 Opsi-1: Buat Customer Baru
+1) **New Customer**  
+   ![New customer](https://github.com/user-attachments/assets/471ff300-2c90-40d4-91c2-39fd4fa55c7d)  
+2) **Company** (wajib) + field lain seperlunya → **Save and Create Contact**  
+3) Isi **Nama PIC, Email, Password** → **Save**  
+   ![Create contact](https://github.com/user-attachments/assets/d0f3152e-967b-45d2-9ecc-5a7fbffd80df)
+
+### 10.3 Opsi-2: Edit Customer yang Sudah Ada
+1) Pastikan email PIC sesuai  
+   ![Row](https://github.com/user-attachments/assets/e436c468-0d45-47ae-bcca-29be56ec1fc6)  
+2) Klik **Contact** di bawah nama perusahaan  
+   ![Contacts](https://github.com/user-attachments/assets/601b5348-a40f-4c5f-a763-5641d1bc45af)  
+3) **Edit Contact**  
+   ![Edit form](https://github.com/user-attachments/assets/2f232666-db5f-47ee-a04c-37063cb1124c)  
+4) Ubah **Nama PIC, Email PIC, Password** → **Save**  
+
+https://github.com/user-attachments/assets/066d137d-948b-47cf-9adc-78af1158890b
+
+---
+
+## 👥 11) Manage Access (Admin/QA)
+
+> Atur siapa yang **bisa melihat / upload / edit / hapus / ubah izin** pada folder & file.
+
+### 11.1 Komponen Utama
+
+**Access type**  
 ![Access type](https://github.com/user-attachments/assets/f53301aa-f2cc-46c6-a2f2-1c1cc7d2732e)
 
-- **Restricted (Only selected people)** → Hanya staf tertentu  
-- **All staff** → Semua karyawan internal  
-- **Public (staff & clients)** → Dapat diakses oleh semua karyawan dan client
+- **Restricted (only selected people)** → hanya orang yang dipilih  
+- **All staff** → semua karyawan internal  
+- **Public (staff & clients)** → semua staff **dan** semua client dapat melihat
 
-> Sebagai Staf FTE, gunakan **All staff** atau **Restricted** sesuai instruksi QA/Admin.
+**People (All / Staff / Client)**  
+![People picker](https://github.com/user-attachments/assets/1bcef987-663b-4e48-bddc-276a3715d3d2)  
+Tambahkan user berdasarkan **nama/email** sesuai tab
 
----
+https://github.com/user-attachments/assets/a0e7409f-a980-48d0-a975-9c9b3fb071a3
 
-### 10.2 Level Izin
+**Permission level**
+- **View only** → lihat/unduh  
+- **Editor** → lihat, upload, rename, move, edit, share  
+- **Full access** → semua (view, upload, organize/edit, delete, share) 
 
-| Level | Hak |
-|---|---|
-| **View only** | Melihat dan mengunduh file |
-| **Editor** | Upload, rename, move |
-| **Full access** | Semua hak (view, upload, edit, delete, share) |
+> **Catatan keamanan:** Akun **Client** efektif **View only** meski dipilih Editor/Full (sistem tetap membatasi baca/unduh).
 
-> Staf FTE umumnya memiliki izin **Editor** untuk area tanggung jawab masing-masing.
+**Opsi lanjutan**
+- **Inherit from parent folder** → warisi izin dari induk/sembunyikan default(nonaktifkan)
 
----
 
-### 10.3 Panduan Memberi Akses
+### 11.2 5-Langkah Cepat Memberi Akses
+1) Klik kanan folder/file → **Manage access**  
+2) Pilih **Access type** (Restricted / All staff / Public)  
+3) Tab **Staff/Client** → cari & **tambahkan** orang  
+4) Pilih **Permission level** (View / Editor / Full)  
+5) **Save**
 
-1. Klik kanan file/folder → **Manage access**  
-2. Pilih **Access type**  
-3. Tab **Staff** → cari nama/email staf  
-4. Tentukan **Permission level**  
-5. Klik **Save**
+### 11.3 Contoh Pengaturan Aman
 
----
+**A) Company Profile (publik)**  
+ Folder
+- Access type: **Public (staff & clients)**  
+- People: —  
+- Permission: **Editor**  
+- Editor khusus (Marketing) di file tertentu saja
 
-### 10.4 Rekomendasi Akses per Folder
+ File
+- Access type: **Public (staff & clients)**  
+- People: —  
+- Permission: **Editor**  
 
-| Folder | Access Type | Staf Default | Client | Catatan |
+**B) Agreements (sensitif)**  
+
+Folder
+- Access type: **Public (staff & clients)**  
+- People: —  
+- Permission: Opsi 1. **View Only**  Jika admin QA yang mengatur isi client
+-             Opsi 2. **Editor**  Jika Staf FTE yang mengatur isi client
+
+Sub Folder
+- Access type: **Restricted**  
+- People: pilih client 
+- Permission: Opsi 1. **View Only**       
+        
+File
+-default inherit, mengikuti subfolder client yang sudah dipilih
+
+### 11.4 Dampak Per Folder vs File
+- Folder **berisi Client** pada **People** ⇒ **semua file** di dalamnya **terlihat** untuk Client (View only).
+- Tunda publikasi file ke Client:
+  - Set file ke **All staff**, atau
+  - Jangan tambahkan Client di folder; tambahkan Client **di file** saat siap rilis.
+
+**Ilustrasi**  
+- Folder berisi Client (file otomatis terlihat):  
+  ![folder has client](https://github.com/user-attachments/assets/17291875-b575-4e2f-93a9-b5f913344a64)  
+  ![client tab](https://github.com/user-attachments/assets/30cb2ce9-c355-4382-91c4-c7fda434e733)  
+  ![list view](https://github.com/user-attachments/assets/c9ab3b0c-a1d9-4656-b1ae-72606caaed50)
+
+- File **All staff** (tidak terlihat client):  
+  ![file all staff](https://github.com/user-attachments/assets/0e70a9d1-94df-4837-a229-b7e742cbedf1)
+
+- File di induk (Agreement, dll) **tidak otomatis** publik ke semua client → set **Public** bila perlu:  
+  ![file in parent](https://github.com/user-attachments/assets/95343838-4620-4668-9e25-d39ad7c8e44f)  
+  ![set public](https://github.com/user-attachments/assets/ded07647-8a6c-4107-bbfc-c1a5bef89bf5)
+
+### 11.5 Matriks Rekomendasi Cepat
+
+| Kategori | Access type | Staff (default) | Client (default) | Catatan |
 |---|---|---|---|---|
-| **Agreement** | Restricted | Editor (Legal/QA) | View only | Hindari publik |
-| **Certificates & Compliance** | Restricted | Editor (QA) | View only | Dokumen sensitif |
-| **Company Profile** | Public | Editor (Marketing) | View only | Materi publik |
-| **Service Report (per klien)** | Restricted | Editor (PIC Proyek) | View only | Sesuai proyek |
-| **Complaint Log** | All staff | Editor | View only | Internal tracking |
+| **Agreements** | Restricted | Editor (Legal/QA); View (lainnya) | View only | Sensitif; audit ketat |
+| **Certificates & Compliance** | Restricted | View/Editor (QA/Compliance) | View only | Hindari Public |
+| **Company Profile** | Public | View (Marketing Editor khusus) | View only | Materi publik |
+| **Service/Inspection Reports (per klien)** | Restricted | Editor (PIC proyek) | View only | Publikasi selektif |
 
 ---
 
-## 🛠️ 11) Troubleshooting
 
-| Masalah | Penyebab | Solusi |
+## 🛠️ 12) Troubleshooting
+
+| Gejala | Penyebab | Solusi |
 |---|---|---|
-| Tidak bisa melihat folder/file | Akses Restricted dan belum ditambahkan | Hubungi QA/Admin |
-| Upload gagal | Jaringan tidak stabil / format tidak didukung | Coba ulang upload |
-| File hilang | Terhapus (masih di Trash) | Minta QA restore |
+| User tidak melihat folder/file | **Restricted** & user belum ditambahkan | Tambahkan di **People** (tab Staff/Client yang benar) |
+| File 404 / rusak | Upload gagal (jaringan/ukuran/format) | Upload ulang dengan koneksi stabil, format didukung |
 
 ---
 
-## ✅ 12) Checklist Sebelum Simpan
+## ✅ 13) Checklist sebelum **Save**
 
-- [ ] Folder/file disimpan di lokasi yang benar  
-- [ ] Access type sesuai (All staff / Restricted)  
-- [ ] Penamaan file jelas dan rapi  
-- [ ] Format file benar (.pdf, .xlsx, .docx)  
-- [ ] Upload selesai 100%  
+- [ ] **Access type** tepat (Restricted / All staff / Public)  
+- [ ] **People** (Staff/Client) dan email valid  
+- [ ] **Permission level** sesuai **least privilege**  
 
 ---
 
-## ❓ 13) FAQ Singkat
+## ❓ 15) FAQ Singkat
 
-**Q:** Apa bedanya “All staff” dan “Public”?  
-**A:**  
-- **All staff** → hanya untuk karyawan internal  
-- **Public** → karyawan dan client (gunakan hanya untuk materi publik)
+**“All staff” vs “Public (staff & clients)”**  
+- **All staff**: hanya karyawan internal  
+- **Public**: karyawan + seluruh akun client di sistem
 
-**Q:** Apakah staf bisa hapus file client?  
-**A:** Tidak, kecuali punya izin **Full access** dari Admin/QA.
-
-**Q:** Apakah client bisa upload dokumen?  
-**A:** Tidak. Upload hanya dilakukan oleh Staf FTE.
+**Apakah Client bisa Editor/Full?**  
+- **Tidak** secara efektif; sistem membatasi Client sebagai **View only**
 
 ---
 
-## 🧭 14) Ringkasan Aksi (Staf FTE)
+## 🧭 16) Ringkasan Aksi (Admin)
 
-| Aksi | Menu |
+| Tindakan | Menu |
 |---|---|
 | Login | `pco-kit.co.id → Login → Employee` |
-| Lihat dokumen | `Documents → External Documents` |
+| Akses dokumen | `Documents → External Documents` |
 | Buat folder | **New Folder** |
 | Upload | **Add Files → Upload Files/Folder** |
-| Rename | **✏️ Rename** |
+| Rename | **✏️ / Rename** |
 | Move | **Move** |
-| Delete | **🗑️ Delete** |
+| Delete | **🗑️ / Delete** |
 | Manage access | **👥 Manage access** |
+| Restore | **Trash → Restore** |
 
-> Gunakan koneksi internet stabil saat mengupload atau memindahkan file.
+> **Koneksi:** pastikan jaringan stabil saat upload/ubah akses. Semua perubahan tersimpan otomatis di server.
 
 ---
 
