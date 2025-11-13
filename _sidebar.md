@@ -1,7 +1,7 @@
 - [🏠 Beranda](README.md)
 
-- **Panduan Admin**
+- **Panduan Admin/QA**
   - [📂 Akses External Documents](admin/akses-external-docs.md)
 
-- **Panduan Staf FTE**
+- **Panduan FTE**
   - [📂 Akses External Documents (FTE)](admin/akses-external-docs-fte.md)
