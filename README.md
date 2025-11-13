@@ -9,8 +9,8 @@ Dokumentasi ini berisi panduan lengkap untuk tim internal, QA, FTE, serta penggu
 
 | 📂 Bagian | 📘 Deskripsi | 🔗 Tautan |
 |------------|--------------|-----------|
-| 🧑‍💼 **Panduan QA** | Panduan konfigurasi, pengelolaan, dan akses dokumen internal | [Lihat Panduan Admin](admin/akses-external-docs.md) |
-| 👥 **Panduan FTE** | Panduan penggunaan dan akses eksternal untuk tim FTE | [Lihat Panduan Staf FTE](admin/akses-external-docs-fte.md) |
+| 🧑‍💼 **Panduan QA** | Panduan konfigurasi, pengelolaan, dan akses dokumen internal | [Lihat Panduan QA](admin/akses-external-docs.md) |
+| 👥 **Panduan FTE** | Panduan penggunaan dan akses eksternal untuk tim FTE | [Lihat Panduan FTE](admin/akses-external-docs-fte.md) |
 
 ---
 
