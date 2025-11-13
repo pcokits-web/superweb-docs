@@ -1,6 +1,6 @@
-# 🧭 Panduan Lengkap Staf FTE — Manajemen Dokumen Eksternal · Portal PCO Kits
+# 🧭 Panduan Lengkap FTE — Manajemen Dokumen Eksternal · Portal PCO Kits
 
-Panduan lengkap bagi **Staf FTE** dalam mengelola **External Documents** di portal **PCO Kits**: login, navigasi folder, upload, rename, move, delete, share serta pengaturan akses yang diizinkan sesuai peran staf.
+Panduan lengkap bagi **FTE** dalam mengelola **External Documents** di portal **PCO Kits**: login, navigasi folder, upload, rename, move, delete, share serta pengaturan akses yang diizinkan sesuai peran staf.
 
 ---
 
@@ -142,7 +142,7 @@ Centang beberapa file → **Delete (ikon merah)** → konfirmasi
 
 ---
 
-## 👥 11) Manage Access (Staf FTE)
+## 👥 11) Manage Access (FTE)
 
 > Atur siapa yang **bisa melihat / upload / edit / hapus / ubah izin** pada folder & file.
 
@@ -207,7 +207,7 @@ Folder
 - Access type: **Public (staff & clients)**  
 - People: —  
 - Permission: Opsi 1. **View Only**  Jika admin QA yang mengatur isi client
--             Opsi 2. **Editor**  Jika Staf FTE yang mengatur isi client
+-             Opsi 2. **Editor**  Jika FTE yang mengatur isi client
 
 Sub Folder
 - Access type: **Restricted**  
