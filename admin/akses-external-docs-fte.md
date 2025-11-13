@@ -1,10 +1,10 @@
 # 🧭 Panduan Lengkap FTE — Manajemen Dokumen Eksternal · Portal PCO Kits
 
-Panduan lengkap bagi **FTE** dalam mengelola **External Documents** di portal **PCO Kits**: login, navigasi folder, upload, rename, move, delete, share serta pengaturan akses yang diizinkan sesuai peran staf.
+Panduan lengkap bagi **FTE** dalam mengelola **External Documents** di portal **PCO Kits**: login, navigasi folder, upload, rename, move, delete, share serta pengaturan akses yang diizinkan sesuai peran.
 
 ---
 
-## 🔐 1) Login Staf
+## 🔐 1) Login
 
 ![Login screen](https://github.com/user-attachments/assets/06a107a5-7e2e-4f9a-b9e9-6a4c1e1a7b52)
 
