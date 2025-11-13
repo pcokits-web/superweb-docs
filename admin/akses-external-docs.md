@@ -1,10 +1,10 @@
-# 🧭 Panduan Lengkap Admin/QA— Manajemen Dokumen Eksternal · Portal PCO Kits
+# 🧭 Panduan Lengkap QA— Manajemen Dokumen Eksternal · Portal PCO Kits
 
 Panduan ringkas–lengkap untuk **Administrator Sistem / QA** dalam mengelola **External Documents**: login, struktur folder, buat/upload/rename/move/delete, **Manage Access**, Trash, pendaftaran customer/PIC, SOP, FAQ, dan ringkasan aksi.
 
 ---
 
-## 🔐 1) Login Admin
+## 🔐 1) Login
 
 ![Login screen](https://github.com/user-attachments/assets/06a107a5-7e2e-4f9a-b9e9-6a4c1e1a7b52)
 
@@ -198,7 +198,7 @@ Tambahkan user berdasarkan **nama/email** sesuai tab
 Folder
 - Access type: **Public (staff & clients)**  
 - People: —  
-- Permission: Opsi 1. **View Only**  Jika admin QA yang mengatur isi client
+- Permission: Opsi 1. **View Only**  Jika admin/QA yang mengatur isi client
 -             Opsi 2. **Editor**  Jika Staf FTE yang mengatur isi client
 
 Sub Folder
@@ -257,7 +257,7 @@ File
 
 ---
 
-## 🧭 15) Ringkasan Aksi (Admin)
+## 🧭 15) Ringkasan (Admin/QA)
 
 | Tindakan | Menu |
 |---|---|
