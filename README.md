@@ -1,7 +1,7 @@
 # 🧾 Dokumentasi Superweb
 
 Selamat datang di dokumentasi **Superweb** 👋  
-Dokumentasi ini berisi panduan lengkap untuk tim internal, staf FTE, serta pengguna sistem Superweb.
+Dokumentasi ini berisi panduan lengkap untuk tim internal, QA, FTE, serta pengguna sistem Superweb.
 
 ---
 
@@ -9,8 +9,8 @@ Dokumentasi ini berisi panduan lengkap untuk tim internal, staf FTE, serta pengg
 
 | 📂 Bagian | 📘 Deskripsi | 🔗 Tautan |
 |------------|--------------|-----------|
-| 🧑‍💼 **Panduan Admin** | Panduan konfigurasi, pengelolaan, dan akses dokumen internal | [Lihat Panduan Admin](admin/akses-external-docs.md) |
-| 👥 **Panduan Staf FTE** | Panduan penggunaan dan akses eksternal untuk tim FTE | [Lihat Panduan Staf FTE](admin/akses-external-docs-fte.md) |
+| 🧑‍💼 **Panduan QA** | Panduan konfigurasi, pengelolaan, dan akses dokumen internal | [Lihat Panduan Admin](admin/akses-external-docs.md) |
+| 👥 **Panduan FTE** | Panduan penggunaan dan akses eksternal untuk tim FTE | [Lihat Panduan Staf FTE](admin/akses-external-docs-fte.md) |
 
 ---
 
@@ -23,4 +23,3 @@ Dengan dokumentasi ini, kamu dapat:
 
 ---
 
-## 📄 Struktur Dokumentasi
